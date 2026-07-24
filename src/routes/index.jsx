@@ -11,13 +11,16 @@ import { AuthGate } from "@/components/AuthGate";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "KarnaTrans Logistics — Goods Transport in Bengaluru & Karnataka" },
+      { title: "LathaGirish — Goods Transport in Bengaluru & Karnataka" },
       {
         name: "description",
         content: "Reliable Tata ACE and Canter goods transport across Bengaluru and Karnataka. On-demand and contract logistics for businesses.",
       },
       { property: "og:title", content: "KarnaTrans Logistics — Goods Transport in Karnataka" },
       { property: "og:description", content: "Fast, safe & affordable transport for shops, warehouses, manufacturers and distributors." },
+    ],
+    links: [
+      { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
     ],
   }),
   component: Home,
