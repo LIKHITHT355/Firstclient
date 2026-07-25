@@ -11,7 +11,7 @@ import { AuthGate } from "@/components/AuthGate";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "LathaGirish — Goods Transport in Bengaluru & Karnataka" },
+      { title: "GLR — Goods Transport in Bengaluru & Karnataka" },
       {
         name: "description",
         content: "Reliable Tata ACE and Canter goods transport across Bengaluru and Karnataka. On-demand and contract logistics for businesses.",
