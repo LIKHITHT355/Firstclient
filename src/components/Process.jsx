@@ -2,8 +2,8 @@ import { FileText, Truck, MapPin } from "lucide-react";
 import { TEL_URL } from "@/lib/constants";
 
 const steps = [
-  { n: 1, title: "Share your requirement", desc: "Call, WhatsApp, or fill our quote form — tell us the load, route and timing." },
-  { n: 2, title: "Get an instant quote", desc: "We propose the right vehicle and a transparent price within minutes." },
+  { n: 1, title: "Share your requirement", desc: "Call, WhatsApp — tell us the load, route and timing." },
+  { n: 2, title: "Call for the number ", desc: "We propose the right vehicle and a transparent price within minutes." },
   { n: 3, title: "Pickup & delivery", desc: "Our driver arrives on time, loads carefully, and delivers with proof of delivery." },
 ];
 
@@ -47,14 +47,22 @@ export function ContractBanner() {
   );
 }
 
-const areas = ["Bengaluru", "Mysuru", "Mangaluru", "Hubballi", "Belagavi", "Kalaburagi", "Davanagere", "Ballari", "Tumakuru", "Shivamogga", "Vijayapura", "Udupi"];
-
+const areas = [
+  ,"Bommasandra",
+  "Jigani",
+  "Electronic City",
+  "Attibele",
+  "Chandapura",
+  "Anekal",
+  "Hosur",
+  "White Feild"
+];
 export function Coverage() {
   return (
     <section className="section section-cloud">
       <div className="container">
         <span className="eyebrow">Coverage</span>
-        <h2 className="section-title">Across every district of Karnataka</h2>
+        <h2 className="section-title">Across Bommasandra</h2>
         <p className="section-sub">Regular routes to every major city and town. If you don't see your area, just ask — we probably cover it.</p>
         <div className="chip-list">
           {areas.map((a) => <span key={a} className="chip"><MapPin size={14} style={{ display: "inline", marginRight: 4, color: "var(--orange)" }} />{a}</span>)}

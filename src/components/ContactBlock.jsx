@@ -92,14 +92,13 @@ export function Footer() {
               <span>{COMPANY}</span>
             </div>
             <p style={{ marginTop: 12, fontSize: 14, maxWidth: 380 }}>
-              Commercial transportation across Bengaluru and Karnataka. Ten years of moving your goods safely, on time.
+              Commercial transportation across Bengaluru . Ten years of moving your goods safely, on time.
             </p>
           </div>
           <div>
             <h4>Services</h4>
             <ul>
               <li>City transport</li>
-              <li>Karnataka transport</li>
               <li>Contract logistics</li>
               <li>On-demand booking</li>
             </ul>

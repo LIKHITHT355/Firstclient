@@ -1,8 +1,7 @@
 import { Package, MapPin, Building2, Truck } from "lucide-react";
 
 const services = [
-  { icon: <MapPin size={22} />, title: "City transport in Bengaluru", desc: "Same-day pickup and delivery within the city — shops, warehouses, offices." },
-  { icon: <Package size={22} />, title: "Karnataka-wide transport", desc: "District-to-district goods movement across the entire state." },
+  { icon: <MapPin size={22} />, title: "City transport in Bengaluru Industrial Area", desc: "Same-day pickup and delivery within the city — shops, warehouses, offices." },
   { icon: <Building2 size={22} />, title: "Business contracts", desc: "Monthly and yearly logistics contracts with dedicated fleet allocation." },
   { icon: <Truck size={22} />, title: "On-demand loading", desc: "Book a truck in under 30 minutes for urgent shipments and last-mile jobs." },
 ];

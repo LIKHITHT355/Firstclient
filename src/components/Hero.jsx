@@ -7,9 +7,9 @@ export function Hero() {
     <section id="home" className="hero">
       <div className="container hero-grid">
         <div className="fade-in">
-          <span className="hero-badge"><span className="dot" /> Now serving all of Karnataka</span>
+          <span className="hero-badge"><span className="dot" /> Now serving in Bomasandra Industrial <Area:d></Area:d></span>
           <h1 style={{ marginTop: 16 }}>
-            Reliable goods transport across <span>Bengaluru & Karnataka</span>
+            Reliable goods transport across <span>Industrial Area Bommasandra</span>
           </h1>
           <p>
             Tata ACE, Canter and heavy vehicles for on-demand and contract logistics.
@@ -92,7 +92,7 @@ export function WhyChooseUs() {
       <div className="container">
         <span className="eyebrow">Why choose us</span>
         <h2 className="section-title">Built for businesses that can't afford delays</h2>
-        <p className="section-sub">Ten years of moving goods across Karnataka means we know every route, every checkpoint, and every shortcut.</p>
+        <p className="section-sub">Ten years of moving goods across Bengaluru Industrial Region means we know every route, every checkpoint, and every shortcut.</p>
         <div className="grid grid-3" style={{ marginTop: 32 }}>
           {items.map((i) => (
             <div key={i.title} className="card">
